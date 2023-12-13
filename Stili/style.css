@@ -1,0 +1,265 @@
+.selector-for-some-widget {
+    box-sizing: content-box;
+  }
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Tsukimi Rounded', sans-serif;
+    scroll-behavior: smooth;
+}
+
+
+:root{
+  --bg-color: #ffffff;
+  --text-color: #794292;
+  --main-color: #262626;
+}
+.navbar{
+  background: linear-gradient(180deg, rgba(121, 66, 146, 0.50) 0%, rgba(217, 217, 217, 0.00) 100%);
+  padding: 10px 0;
+}
+
+
+
+.nav-link{
+  color: #8343a1;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor:pointer;
+  text-decoration: none;
+}
+
+.nav-link:hover{
+    color: rgb(193, 139, 216);
+    background: transparent;
+    transition: .5s;
+}
+.my_active{
+  color:rgb(193, 139, 216);
+}
+
+.navbar-nav {
+  display: flex;
+  list-style-type: none;
+  padding: 20px;
+  align-items: flex-end;
+}
+.navbar-brand{
+  padding-left: 20px;
+  margin-right: 50px;
+}
+
+.navbar-toggler { 
+  margin-right: 50px;}
+
+
+/* Descrption */
+
+.main{
+  background-size: cover;
+  width: 100%;
+  padding-left: 20px;
+  padding-bottom: 0;
+}
+.main h1{
+  font-size: 3rem;
+  font-weight: 700;
+  color: #393939;
+}
+.main p{
+font-size: 1.2rem;
+font-weight: 500;
+}
+span{
+  color: #794292;
+}
+
+.main .bt1{
+  height: 45px;
+  width: 138px;
+  background-color:rgba(156, 104, 152, 0.576);
+  color: #743c8e;
+  outline: none;
+  border: none;
+  font-weight: 600;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.main .bt1:hover{
+  background-color:  #79429264 ;
+  color:rgb(168, 92, 168);
+  transition: 0.5s;
+}
+.main .bt2{
+  height: 45px;
+  width: 158px;
+  background-color: rgba(156, 104, 152, 0.576);
+  color: #743c8e;
+  outline: none;
+  border: none;
+  font-weight: 600;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.main .bt2:hover{
+  background-color:  #79429264 ;
+  color:rgb(168, 92, 168);
+  transition: 0.5s;
+}
+
+
+.photo img {
+  width: 80%;
+}
+
+
+
+/*Skills*/
+
+.wrapper{
+  position: relative;
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: transparent;
+  flex-wrap: wrap;
+}
+.top_div{
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  flex-direction: column;
+  padding: 0;
+}
+
+.top_div h1{
+  color: #794292;
+  position: relative;
+  font-size: 30px;
+  text-transform: uppercase;
+  text-align: left;
+  margin:30px;
+}
+
+.content{
+  position: relative;
+  width: 300px;
+  padding: 10px;
+  margin: 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  text-align: center;
+  background: transparent;
+  transition: transform 0.5s;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.content:hover{
+  background:#7942920c;
+  transform: translateY(-15px);
+}
+
+.content img{
+  position: relative;
+  padding: 10px;
+
+}
+.content h2{
+  color: #794292;
+  margin: 10px;
+  text-transform: uppercase;
+}
+.content p{
+line-height: 1.4;
+}
+
+/*Tool*/
+
+.tool {
+  max-width:70%;
+  margin: 0 auto;
+}
+
+h3 {
+  text-align: left;
+  font-size: 30px;
+  color: var(--text-color);
+  padding-top: 15px;
+  padding-left: 20px;
+  padding-right: 50px;
+}
+
+.icons {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 0px;
+  padding-bottom: 120px;
+}
+
+.icon {
+  width: 10%; 
+  box-sizing: border-box;
+  padding: 10px;
+}
+
+.icon img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+@media (max-width: 600px) {
+  .icon {
+      width: 50%; 
+  }
+}
+
+/*Footer*/
+footer{
+  background: linear-gradient(180deg, rgba(217, 217, 217, 0.00) 0%, rgba(121, 66, 146, 0.50) 100%) ;
+  height:fit-content;
+}
+
+.footer-content{
+  width: 100%;
+  padding: 30px 30px 20px;
+}
+.socialIcons{
+  display: flex;
+  justify-content: center;
+  padding: 70px 70px 70px;
+}
+.socialIcons a{
+  text-decoration: none;
+  padding: 15px;
+  background-color:#dbb0cf80 ;
+  margin: 15px;
+  border-radius: 50%;
+}
+.socialIcons a i{
+  font-size: 1.8em;
+  color:var(--text-color);
+  opacity: 0.9;
+}
+
+.socialIcons a:hover{
+  background-color:#79429264;
+  transition: 0.5s;
+}
+.footer-bottom{
+  font-size: 14px;
+  text-align: center;
+  padding-bottom: 80px;
+  color: #743c8e;
+  font-weight: 600;
+}
