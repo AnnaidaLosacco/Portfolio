@@ -255,14 +255,13 @@ label {
     display: flex;
     justify-content: flex-start;
     flex-direction: column;
+    resize: horizontal;
   }
   
   .form-row input[type='text'],
   .form-row input[type='email'],
   .form-row textarea {
     padding: 1%;
-    resize: horizontal;
-    width: 100%;
   }
 
   .form-row label,
