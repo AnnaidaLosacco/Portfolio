@@ -225,10 +225,10 @@ section {
     justify-content: flex-start;
     text-align: left;
     width: 100%;
-    padding: 0 10%;
+    padding: 10% 10%;
     color: #7b489998;
   }
-  form {width: 100%;}
+  form {width: 90%;}
 
   .intro {
     display: none;
