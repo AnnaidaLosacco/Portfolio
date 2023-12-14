@@ -227,8 +227,8 @@ section {
     width: 100%;
     padding: 0 10%;
     color: #7b489998;
-
   }
+  form {width: 100%;}
 
   .intro {
     display: none;
@@ -255,7 +255,6 @@ label {
     display: flex;
     justify-content: flex-start;
     flex-direction: column;
-    resize: horizontal;
   }
   
   .form-row input[type='text'],
