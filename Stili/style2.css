@@ -259,6 +259,7 @@ label {
   .form-row input[type='email'],
   .form-row textarea {
     padding: 1%;
+    width: 100%;
   }
 
   .form-row label,
