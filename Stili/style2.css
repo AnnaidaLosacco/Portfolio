@@ -173,7 +173,25 @@
       font-weight: bold;
       text-decoration: none;
     }
+    
+  .card-container {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      line-height: 20px;
+      margin-left: 20px;
+  }
+  .card{ background: transparent;
+    border-style: none;
+  }
+  .card h2{
+    font-size: 25px;
+    color: #8343a1;
+  }
+  .card strong{ font-size: 20px;}
+  .card p{ font-size: 14px ;}
 
+  
     .button{
     display: block;
     margin: 50px auto;
