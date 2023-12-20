@@ -76,7 +76,7 @@
    
   .wrapper{
     position: relative;
-    min-height: 100vh;
+    min-height: 80vh;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -92,6 +92,7 @@
     justify-content:center;
     align-items: center;
     flex-direction: column;
+    margin-top: 20px;
   }
   
   .top_div h1{
@@ -173,23 +174,37 @@
       font-weight: bold;
       text-decoration: none;
     }
-    
-  .card-container {
+  
+    .card-container {
       display: flex;
       flex-direction: column;
       gap: 20px;
       line-height: 20px;
       margin-left: 20px;
+      width: 100%;
   }
+
+
   .card{ background: transparent;
     border-style: none;
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-around;
   }
   .card h2{
     font-size: 25px;
     color: #8343a1;
+    padding-top: 10px;
   }
   .card strong{ font-size: 20px;}
   .card p{ font-size: 14px ;}
+
+.card_skill {
+  display: flex;
+  flex-direction: column;
+  padding-top: 20px;
+}
 
   
     .button{
